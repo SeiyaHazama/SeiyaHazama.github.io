@@ -25,8 +25,15 @@ git clone https://github.com/SeiyaHazama/ARnenga.git
 
 * git command is needed in addition terminal.
 
-## Motion Image
+## Motion
 ![](https://user-images.githubusercontent.com/31854581/47959344-e332c580-e024-11e8-85b5-f6ecaf4c4052.jpg)
+
+### Supported browser
+
+|Platform|Browser|
+|:---:|:---:|
+|iOS11 or later|Safari only|
+|Android|Need support WebRTC and WebGL|
 
 ## Thankyou Watch this repository!
 ARnenga is operation on Github. If you interested this project, 
