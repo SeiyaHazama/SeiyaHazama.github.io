@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project is Web AR using [AR.js](https://github.com/jeromeetienne/AR.js) and [A-Frame](https://aframe.io/). This project is very simply. So, You can use as Web AR example.
+This project is Web AR using [AR.js](https://github.com/jeromeetienne/AR.js) and [A-Frame](https://aframe.io/). This project is very simply. So, you can use as Web AR example.
 To use Web AR using AR.js and A-Frame, Encrypt with SSL is needed in addition Web Server.
 
 ## Prepare 3D model and AR marker
@@ -35,7 +35,7 @@ git clone https://github.com/SeiyaHazama/ARnenga.git
 |iOS11 or later|Safari only|
 |Android|Need support WebRTC and WebGL|
 
-## Thankyou Watch this repository!
+## Thank you watch this repository!
 ARnenga is operation on Github. If you interested this project, 
 Please try using [ARnenga](https://seiyahazama.github.io/ARnenga).
 
