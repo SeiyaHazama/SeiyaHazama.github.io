@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./graphicalino.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="./icon.ico">
+  <title>Graphicalino</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="./icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Graphicalino
+    </a>
+  </nav>
+
+  <div class="container" style="margin-top: 10px;">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Graphicalinoとは</h3>
+        <p class="text-muted">シリアル通信を支援</p>
+        <p>Graphicalino（グラフィカリーノ・略称: Gino）は、Arduinoからのシリアル通信で受け取ったデータを見やすくし、CSV書き出しをすることでユーザをサポートします。 <br>普通なら、Arduino IDEのシリアルモニタや簡単なシリアル通信のプログラムを自作すると思います。ですが実際、Arduinoは簡単にデータを見ることができても書き出しができません。自分でプログラムを作れば書き出しは可能になりますが、そのスキルを持たない方は打つ手がありません。そこでGraphicalinoは、GUI環境でのデータの閲覧と書き出し機能を提供します。</p>
+      </div>
+      <div class="col-sm-6">
+        <p style="text-align: center;"><img src="./icon.png" width="50%" class="top"></p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container" style="margin-top: 10px;">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>使い方</h3>
+        <p class="text-muted">すぐに使いこなせます</p>
+        <p>使い方はとてもシンプルです。起動すると自動的にArduinoを検出します。そのためArduinoのシリアルポートを事前に調べる必要はありません。<br>検出が終わりましたら接続します。データのカラム数はGraphicalinoが自動検出し、データは表形式で表示します。また、1カラムを集中して監視したい場合は、監視したいカラムを選択してメータを起動させてください。<br>データの記録はディレクトリを決めて、[記録を開始]をクリックするか、スペースを押下してください。終了時も同じです。記録が完了したら、データを確認してください。保存先ディレクトリへは、Graphicalinoからすぐにアクセスすることができます。</p>
+      </div>
+      <div class="col-sm-6">
+        <p style="text-align: center;"><img src="./window.png" width="100%" class="top"></p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container" style="margin-top: 10px">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>ダウンロード</h3>
+        <p class="text-muted">さぁ、はじめましょう</p>
+        <p>現在はmacOSのx64版のみ提供しています。<br>Linux版とWindows版は、現在ビルド環境を整えています。しばらくお待ち下さい。<br>お急ぎの方は、下のリポジトリから自らビルドすることができます。</p>
+      </div>
+      <div class="col-sm-6">
+        <div>
+          <a href="./bin/Graphicalino_macOS.zip">
+            <button type="button" class="btn btn-primary">
+              <ion-icon name="logo-apple"></ion-icon>
+              macOS x64版のダウンロード
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container" style="margin-top: 10px;">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>リポジトリと再配布</h3>
+        <p class="text-muted">自分だけのGraphicalinoを</p>
+        <p>Graphicalinoはオープンソースです。この開発は、もともとElectronの練習のためにはじめましたので、今後プルリクエストを受け付けることはありませんが、各自で改良し、再配布をすることは問題ありません。以降の情報はGitHubのREADMEを御覧ください。</p>
+      </div>
+      <div class="col-sm-6">
+        <a href="https://github.com/SeiyaHazama/Graphicalino">
+          <button type="button" class="btn btn-dark">
+            <ion-icon name="logo-github"></ion-icon>
+            GitHubリポジトリへ
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer" style="margin-top: 50px;">
+    <div class="container">
+      <span class="text-muted">
+        <p style="text-align: center;">
+          &copy; 2019 SeiyaHazama<br>
+          Released under the MIT license.
+        </p>
+      </span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
